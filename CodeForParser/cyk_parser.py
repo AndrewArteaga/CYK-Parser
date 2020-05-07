@@ -103,7 +103,7 @@ class grammar(object):
                             if e == key:
                                 for element in value:
                                     parse_table[i][j].add(element)
-        # Print Parse table for view, tabulate is awesome
+        # Print parse table for view, tabulate is awesome
         print('Parse Table generated below:')
         print(tabulate(parse_table, headers = word, tablefmt="fancy_grid"))
         print('\n')
