@@ -16,5 +16,5 @@ Clone repo and make sure everything is pip installed.
 
 ```python
 
-python3 cyk_parser.py
+python3 cyk_demo.py
 ```
