@@ -1,7 +1,11 @@
-# usage:
-# python3 pytest -v
 import pytest
 from cyk_parser import (grammar)
+
+# Pretty empty test file, but it thoroughly tests the 
+# parse method from grammar class in cyk_parser.py
+
+# usage:
+# pytest -v
 
 def test_parse():
     g_one = grammar('test_grammar_one.txt')
